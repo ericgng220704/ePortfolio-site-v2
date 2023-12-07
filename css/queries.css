@@ -1,0 +1,303 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+     .project-description-heading {
+          font-size: 4.4rem;
+     }
+
+     .about-me {
+          gap: 12.8rem;
+     }
+
+     .about-me-text-box {
+          padding-right: 10rem;
+     }
+}
+
+/**************************/
+/* BELOW 1100px */
+/**************************/
+@media (max-width: 69em) {
+     .heading-primary {
+          font-size: 9.8rem;
+     }
+
+     .about-me {
+          gap: 8rem;
+     }
+
+     .about-me-text-box {
+          padding-right: 8rem;
+     }
+
+     .about-web-text-box {
+          font-size: 1.6rem;
+     }
+
+     .portfolio-project--half .project-btn {
+          width: 45%;
+     }
+}
+
+/**************************/
+/* BELOW 1000px */
+/**************************/
+@media (max-width: 62em) {
+     .portfolio-project--half .project-btn {
+          width: 47%;
+     }
+
+     .about-me-text-box p {
+          font-size: 1.2rem;
+     }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 59em) {
+     html {
+          font-size: 50%;
+     }
+     .about-me-text-box p {
+          font-size: 1.4rem;
+     }
+     .mobile-nav {
+          display: block;
+     }
+     .nav-list {
+          position: absolute;
+          top: -95rem;
+          left: 0;
+          flex-direction: column;
+          justify-content: flex-start;
+          background-color: rgba(250, 252, 251, 1);
+          /* backdrop-filter: blur(10px); */
+          width: 100%;
+          height: 100vh;
+          padding-top: 3rem;
+          margin: 0;
+          gap: 2rem;
+          font-size: 2rem;
+          z-index: 9;
+          opacity: 0;
+          transition: all 0.7s;
+     }
+     .nav-list-item {
+          height: 6rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .nav-list-item a:link,
+     .nav-list-item a:visited {
+          transition: 0.5s ease;
+     }
+     .nav-list-item a:hover,
+     .nav-list-item a:active {
+          letter-spacing: 3px;
+          color: #f59f00;
+     }
+}
+
+/**************************/
+/* BELOW 744px (Tablets) */
+/**************************/
+@media (max-width: 46.5em) {
+     .portfolio-project--half {
+          display: block;
+     }
+     .portfolio-project--half .project-btn {
+          width: 25%;
+     }
+     .project-description-box {
+          padding: 4.2rem 0 !important;
+     }
+
+     .about-me-text-box p {
+          font-size: 1.3rem;
+     }
+
+     .about-me {
+          gap: 8rem;
+     }
+
+     .about-me-text-box {
+          padding-right: 6.4rem;
+     }
+
+     .about-web-text-box {
+          font-size: 1.4rem;
+     }
+
+     .hero {
+          display: flex;
+          background-image: none;
+     }
+
+     .ghost-box {
+          padding: 2rem 0 7rem 0;
+     }
+
+     .ghost {
+          display: block;
+     }
+
+     .about-me .explore-btn {
+          font-size: 2rem;
+          padding: 0.5rem 3rem;
+     }
+     .copy-right {
+          font-size: 1rem;
+     }
+     .sign img {
+          height: 2.5rem;
+     }
+}
+
+/**************************/
+/* BELOW 650px (Tablets) */
+/**************************/
+@media (max-width: 41em) {
+     .portfolio-project--half .project-btn {
+          width: 30%;
+     }
+     .heading-primary {
+          font-size: 7.4rem;
+     }
+
+     .about-me {
+          display: flex;
+          flex-direction: column;
+     }
+     .about-me img {
+          width: 50%;
+          align-self: center;
+     }
+     .about-me-text-box {
+          padding: 0 2rem;
+     }
+
+     .about-me-text-box p {
+          font-size: 1.5rem;
+     }
+     .about-me .explore-btn {
+          align-self: center;
+          padding: 1rem 6rem;
+     }
+
+     .what-i-use {
+          display: flex;
+          flex-direction: column;
+          gap: 6.4rem;
+     }
+     .what-i-use .text-box {
+          order: 2;
+     }
+}
+
+/**************************/
+/* BELOW 600px (Tablets) */
+/**************************/
+@media (max-width: 37.5em) {
+     .portfolio-project--half .project-img {
+          height: 55rem;
+     }
+     .line2 {
+          display: flex !important;
+          flex-direction: column;
+          gap: 2rem;
+     }
+     .line2 .project-description-text {
+          width: 100%;
+     }
+     .line2 .project-btn {
+          align-self: flex-start;
+          width: 33%;
+     }
+     .portfolio-project--half .project-btn {
+          width: 33%;
+     }
+     .about-web-text-box {
+          font-size: 1.2rem;
+          gap: 2.4rem;
+     }
+     .what-i-use {
+          gap: 3.2rem;
+     }
+}
+
+/**************************/
+/* BELOW 534px (Tablets) */
+/**************************/
+@media (max-width: 33.4em) {
+     .heading-primary {
+          font-size: 6.2rem;
+     }
+     .project-description-heading {
+          font-size: 3.6rem;
+     }
+     .line2 .project-btn {
+          width: 40%;
+     }
+     .portfolio-project--half .project-btn {
+          width: 40%;
+     }
+     .portfolio-project--half .project-img {
+          height: 45rem;
+     }
+     .roles {
+          font-size: 3rem;
+     }
+     #introduction-text,
+     #hello {
+          font-size: 1.8rem;
+     }
+     .explore-btn {
+          font-size: 2.2rem;
+     }
+     .about-web-text-box {
+          font-size: 1rem;
+          gap: 1.6rem;
+     }
+     .rows {
+          font-size: 1.1rem;
+     }
+     .copy-right {
+          font-size: 0.8rem;
+     }
+     .sign img {
+          height: 2rem;
+     }
+     .contacts .rows .list-title a:nth-child(1) {
+          width: 7rem;
+     }
+}
+/**************************/
+/* BELOW 455px (Tablets) */
+/**************************/
+@media (max-width: 28.2em) {
+     .heading-primary {
+          font-size: 5.2rem;
+     }
+     .line2 .project-btn {
+          width: 50%;
+     }
+     .portfolio-project--half .project-btn {
+          width: 50%;
+     }
+     .explore-btn {
+          padding: 1rem 4rem;
+          font-size: 2rem;
+     }
+     .about-me .explore-btn {
+          padding: 1rem 4rem;
+     }
+     .about-web-text-box {
+          font-size: 0.8rem;
+          gap: 1.6rem;
+     }
+}

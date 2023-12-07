@@ -1,0 +1,36 @@
+/**************************/
+/* BELOW 1000px */
+/**************************/
+@media (max-width: 62em) {
+     .portfolioP-projects {
+          display: flex;
+          flex-direction: column;
+     }
+     .portfolioP-project-sub-box {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+     }
+}
+/**************************/
+/* BELOW 800px */
+/**************************/
+@media (max-width: 50em) {
+     .portfolioP-project-sub-box {
+          display: flex;
+          flex-direction: column;
+     }
+}
+/**************************/
+/* BELOW 400px */
+/**************************/
+@media (max-width: 25em) {
+     .portfolioP-heading-1 {
+          font-size: 4.4rem;
+     }
+     .portfolioP-project-image-box img {
+          height: 13rem;
+     }
+     .delete-by-queries {
+          display: none;
+     }
+}
