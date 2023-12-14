@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="stylesheet" href="./css/general.css" />
+          <link rel="stylesheet" href="./css/style.css" />
+          <link rel="stylesheet" href="./css/contact.css" />
+          <link rel="stylesheet" href="./css/queries.css" />
+          <link rel="stylesheet" href="./css/queries-contact.css" />
+          <title>Eric Nguyen - Contact</title>
+     </head>
+     <body>
+          <nav class="nav-bar container">
+               <a href="index.html" class="external"
+                    ><img src="./img/logo.jpg" alt="" class="logo"
+               /></a>
+
+               <ul class="nav-list">
+                    <li class="nav-list-item">
+                         <a href="index.html" class="external">HOME</a>
+                    </li>
+                    <li class="nav-list-item">
+                         <a href="portfolio.html" class="external">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-list-item">
+                         <a href="about.html" class="external">ABOUT</a>
+                    </li>
+                    <li class="nav-list-item">@E</li>
+               </ul>
+               <div class="mobile-nav">
+                    <div class="mobile-nav-menu">
+                         <div class="line"></div>
+                         <div class="line"></div>
+                         <div class="line"></div>
+                    </div>
+               </div>
+          </nav>
+          <div class="form">
+               <h1 class="heading-primary">I can't wait to hear from you</h1>
+               <div class="contact-form-box">
+                    <div class="form-illustration">
+                         <ion-icon name="paper-plane"></ion-icon>
+                    </div>
+                    <form id="contactForm" action="/index.html" method="post">
+                         <div class="form-group">
+                              <label for="name">Name*</label>
+                              <div class="input">
+                                   <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        required
+                                   />
+                                   <span
+                                        class="error"
+                                        id="nameError"
+                                        style="display: none"
+                                        >Please enter your name</span
+                                   >
+                              </div>
+                         </div>
+                         <div class="form-group">
+                              <label for="phone"
+                                   >Phone Number* (10-digit)</label
+                              >
+                              <div class="input">
+                                   <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        pattern="\d{10}"
+                                        required
+                                   />
+                                   <span
+                                        class="error"
+                                        id="phoneError"
+                                        style="display: none"
+                                        >Please enter a 10-digit phone
+                                        number</span
+                                   >
+                              </div>
+                         </div>
+                         <div class="form-group">
+                              <label for="email">Email*</label>
+                              <div class="input">
+                                   <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                   />
+                                   <span
+                                        class="error"
+                                        id="emailError"
+                                        style="display: none"
+                                        >Please enter a valid email
+                                        address</span
+                                   >
+                              </div>
+                         </div>
+                         <div class="form-group">
+                              <label for="comments">Comments*</label>
+                              <div class="input">
+                                   <textarea
+                                        id="comments"
+                                        name="comments"
+                                        required
+                                   ></textarea>
+                              </div>
+                         </div>
+                         <div class="buttons">
+                              <button type="submit" class="explore-btn">
+                                   Submit
+                              </button>
+                              <button
+                                   type="reset"
+                                   class="explore-btn transparent-background"
+                              >
+                                   Reset
+                              </button>
+                         </div>
+                    </form>
+               </div>
+               <div id="thankYouOverlay" class="overlay" style="display: none">
+                    <div class="overlay-content">
+                         <p>Thank you for your feedbacks!</p>
+                         <button onclick="closeOverlay()" class="explore-btn">
+                              Close
+                         </button>
+                    </div>
+               </div>
+          </div>
+          <section class="contact-section container" id="contact">
+               <div class="title test-border-bottom">
+                    <h1 class="heading-primary">CONTACT</h1>
+
+                    <div class="portfolio-title-decor-lines">
+                         <div class="decor-line"></div>
+                         <div class="decor-line"></div>
+                         <div class="decor-line"></div>
+                    </div>
+               </div>
+               <div class="contacts">
+                    <div class="col-1">
+                         <div class="rows">
+                              <div class="list-title">
+                                   <a href="mailto:giahaonguyen2207@gmail.com"
+                                        >Gmail</a
+                                   >
+                                   <a
+                                        href="mailto:giahaonguyen2207@gmail.com"
+                                        class="link"
+                                        >giahaonguyen2207@gmail.com</a
+                                   >
+                              </div>
+                         </div>
+                         <div class="rows">
+                              <div class="list-title">
+                                   <a
+                                        href="https://www.linkedin.com/in/eric-nguyen-953740261/"
+                                        >linkedin</a
+                                   >
+                                   <a
+                                        href="https://www.linkedin.com/in/eric-nguyen-953740261/"
+                                        class="link"
+                                        >Eric Nguyen</a
+                                   >
+                              </div>
+                         </div>
+                         <div class="rows">
+                              <div class="list-title">
+                                   <a href="#"></a>
+                                   <a href="#" class="link"></a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-2">
+                         <div class="rows">
+                              <div class="list-title">
+                                   <a href="https://www.instagram.com/heu.im/"
+                                        >Instagram</a
+                                   >
+                                   <a
+                                        href="https://www.instagram.com/heu.im/"
+                                        class="link"
+                                        >Heu.im</a
+                                   >
+                              </div>
+                         </div>
+
+                         <div class="rows">
+                              <div class="list-title">
+                                   <a href="https://github.com/ericgng220704"
+                                        >Github</a
+                                   >
+                                   <a
+                                        href="https://github.com/ericgng220704"
+                                        class="link"
+                                        >ericgng220704</a
+                                   >
+                              </div>
+                         </div>
+                         <div class="rows">
+                              <div class="list-title">
+                                   <a href="#"></a>
+                                   <a href="#" class="link"></a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <footer class="author container">
+               <div class="credits">
+                    <div class="copy-right">
+                         @ 2023 Gia Hao Nguyen. All rights reserved.
+                    </div>
+                    <div class="divider"></div>
+                    <div class="empty"></div>
+                    <div class="divider"></div>
+                    <div class="empty"></div>
+                    <div class="divider"></div>
+                    <div class="empty"></div>
+                    <div class="divider"></div>
+                    <div class="sign">
+                         <img src="./img/logo.jpg" alt="" />
+                    </div>
+               </div>
+          </footer>
+          <script
+               type="module"
+               src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+          ></script>
+          <script
+               nomodule
+               src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+          ></script>
+          <script src="./js/validateForm.js" defer></script>
+     </body>
+</html>

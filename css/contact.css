@@ -1,0 +1,113 @@
+.form {
+     padding: 2rem 5rem 0 5rem;
+     background-color: #f9f9f2;
+     position: relative;
+}
+
+.overlay {
+     position: absolute;
+     width: 100%;
+     height: 80vh;
+     top: 0;
+     left: 0;
+     background-color: rgba(249, 249, 242, 0.8);
+     backdrop-filter: blur(3px);
+     border-radius: 5rem;
+     font-size: 6.4rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.overlay-content {
+     display: flex;
+     flex-direction: column;
+     gap: 3rem;
+}
+
+.overlay-content .explore-btn {
+     align-self: center;
+}
+
+.contact-form-box {
+     display: grid;
+     grid-template-columns: 4fr 6fr;
+}
+
+.form-illustration {
+     font-size: 25rem;
+     /* position: relative; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.form-illustration ion-icon {
+     /* position: absolute;
+     top: 15rem;
+     left: 5rem; */
+     transform: translate(-15%, 5%);
+     transition: all 0.8s;
+}
+.form-illustration ion-icon:hover {
+     transform: scale(1.2);
+}
+.heading-primary {
+     text-transform: uppercase;
+     font-size: 7.4rem;
+     margin-bottom: 3rem;
+}
+
+/* Form */
+#contactForm {
+     border: 1px solid #343434;
+     border-radius: 1rem;
+     padding: 2rem 4rem 2rem 4rem;
+}
+.form-group {
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     margin-bottom: 2rem;
+}
+
+.form-group label {
+     font-size: 1.6rem;
+}
+
+.form-group span {
+     color: rgb(168, 57, 57);
+}
+
+.form-group textarea {
+     padding: 0.5rem 0 0 0.5rem;
+     height: 10rem;
+     width: 100%;
+     background-color: #f9f9f2;
+}
+
+.input input {
+     height: 2rem;
+     width: 100%;
+     padding: 0.5rem 0 0.5rem 0.5rem;
+     border: solid 1px #343434;
+     background-color: #f9f9f2;
+}
+
+.buttons {
+     display: flex;
+     gap: 2rem;
+}
+
+.explore-btn {
+     font-size: 1.6rem;
+     padding: 1rem 5rem;
+}
+
+.transparent-background {
+     background-color: #f9f9f2 !important;
+}
+
+.show {
+     display: block !important;
+}

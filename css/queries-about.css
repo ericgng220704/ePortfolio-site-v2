@@ -1,0 +1,136 @@
+/**************************/
+/* BELOW 1280px (Landscape Tablets) */
+/**************************/
+@media (max-width: 80em) {
+     .block {
+          padding: 3rem 15rem;
+     }
+     .greeting {
+          padding: 0 15rem 5rem;
+     }
+     .about-btn {
+          margin: 2rem 15rem 0;
+     }
+}
+/**************************/
+/* BELOW 1160px (Landscape Tablets) */
+/**************************/
+@media (max-width: 72.5em) {
+     .block {
+          padding: 3rem 10rem;
+     }
+     .greeting {
+          padding: 0 10rem 5rem;
+     }
+     .about-btn {
+          margin: 2rem 10rem 0;
+     }
+     .heading-primary {
+          font-size: 20rem;
+     }
+     .about-text-box .heading-primary {
+          font-size: 5rem;
+     }
+}
+
+/**************************/
+/* BELOW 1060px (Landscape Tablets) */
+/**************************/
+@media (max-width: 66.25em) {
+     .block {
+          padding: 3rem 5rem;
+     }
+     .greeting {
+          padding: 0 5rem 5rem;
+     }
+     .about-btn {
+          margin: 2rem 5rem 0;
+     }
+}
+
+/**************************/
+/* BELOW 960px (Landscape Tablets) */
+/**************************/
+@media (max-width: 66.25em) {
+     html {
+          font-size: 50%;
+     }
+}
+
+/**************************/
+/* BELOW 760px (Landscape Tablets) */
+/**************************/
+@media (max-width: 47em) {
+     .heading-primary {
+          font-size: 15rem;
+     }
+     .about-text-box .heading-primary {
+          font-size: 3.6rem;
+     }
+     .img-box img {
+          height: 8rem;
+     }
+}
+
+/**************************/
+/* BELOW 600px (Landscape Tablets) */
+/**************************/
+@media (max-width: 37.5em) {
+     .heading-primary {
+          font-size: 12rem;
+     }
+}
+
+/**************************/
+/* BELOW 560px (Landscape Tablets) */
+/**************************/
+@media (max-width: 35em) {
+     .block {
+          padding: 3rem 2rem;
+     }
+     .greeting {
+          padding: 0 2rem 5rem;
+     }
+     .about-btn {
+          margin: 2rem 2rem 0;
+     }
+     .about-text-box .heading-primary {
+          font-size: 3rem;
+     }
+}
+
+/**************************/
+/* BELOW 500px (Landscape Tablets) */
+/**************************/
+@media (max-width: 31.25em) {
+     .heading-primary {
+          font-size: 9.8rem;
+     }
+     .img-box img {
+          height: 6rem;
+     }
+}
+
+/**************************/
+/* BELOW 400px (Landscape Tablets) */
+/**************************/
+@media (max-width: 25em) {
+     .heading-primary {
+          font-size: 8.6rem;
+     }
+     .img-box img {
+          height: 5rem;
+     }
+}
+
+/**************************/
+/* BELOW 300px (Landscape Tablets) */
+/**************************/
+@media (max-width: 18.75em) {
+     .heading-primary {
+          font-size: 7.4rem;
+     }
+     .img-box img {
+          height: 5rem;
+     }
+}

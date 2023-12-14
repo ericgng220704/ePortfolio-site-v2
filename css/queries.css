@@ -300,4 +300,10 @@
           font-size: 0.8rem;
           gap: 1.6rem;
      }
+     .portfolio-title-decor-lines {
+          gap: 2.4rem;
+     }
+     .contacts .rows .list-title a:nth-child(1) {
+          width: 4rem;
+     }
 }

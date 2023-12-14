@@ -1,0 +1,78 @@
+.visualization {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 10rem 5rem;
+}
+
+.heading-primary {
+     font-size: 20rem;
+     color: #343a40;
+     line-height: 0.8;
+}
+.second-heading {
+     top: 38rem;
+     left: 50rem;
+}
+
+.img-box img {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     height: 11rem;
+     transform: translate(-50%, -50%);
+}
+
+.about-text-box .heading-primary {
+     font-size: 5rem;
+}
+.portfolio-title-decor-lines {
+     gap: 2rem;
+}
+
+.block {
+     padding: 3rem 20rem;
+}
+
+.title {
+     padding-bottom: 2rem;
+}
+
+.greeting {
+     padding: 0 20rem 5rem;
+     font-size: 1.6rem;
+     line-height: 1.6;
+}
+
+p {
+     font-size: 1.8rem;
+     line-height: 1.6;
+     padding-top: 3rem;
+}
+
+.about-btn {
+     margin: 2rem 20rem 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem 1rem;
+     letter-spacing: 0.2rem;
+     border: 1px solid #343a40;
+     border-radius: 2rem;
+     transition: background-color 0.7s, letter-spacing 0.1s;
+}
+
+.about-btn:hover {
+     background-color: #343a40;
+     letter-spacing: 0.5rem;
+}
+.about-btn:hover a {
+     color: #fff;
+}
+.about-btn a {
+     font-size: 2rem;
+     color: #343a40;
+     transition: all 0.7s;
+}

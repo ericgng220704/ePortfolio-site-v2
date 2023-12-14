@@ -1,6 +1,7 @@
 /*************************** NAV BAR ***************************/
 body {
      background-color: #fbfdfc;
+     background-color: #f9f9f2;
 }
 .nav-bar {
      display: flex;
@@ -16,7 +17,7 @@ body {
      align-items: center;
      gap: 12rem;
      margin: 0 2rem;
-     font-size: 1.4rem;
+     font-size: 1.2rem;
 }
 
 .nav-list-item a:link,
@@ -57,6 +58,7 @@ body {
 
 .container {
      background-color: #fbfdfc;
+     background-color: #f9f9f2;
 }
 
 /*************************** TERMs ***************************/
@@ -64,6 +66,7 @@ body {
      padding: 5rem 0;
      margin: 0 4rem;
      position: relative;
+     background-color: #f9f9f2;
 }
 
 .portfolioP-title {
@@ -108,7 +111,7 @@ body {
 }
 
 .portfolioP-project-sub-box {
-     background-color: #f1f3f5;
+     background-color: #e2e0e0bd;
      padding: 1rem 2rem;
      border-radius: 1rem;
      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
